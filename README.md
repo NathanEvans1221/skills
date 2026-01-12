@@ -47,3 +47,8 @@ Claude 執行 Skill 後會觀察結果（例如指令是否噴錯），如果失
 
 ---
 
+## 安裝目錄
+```bash
+C:\Users\chiis\.opencode\
+C:\Users\chiis\.gemini\
+```

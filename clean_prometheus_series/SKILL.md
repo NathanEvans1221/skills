@@ -1,6 +1,6 @@
 ---
 name: clean_prometheus_series
-description: 清理 Prometheus 中累積的無效或過期 Series 數據 (例如: 舊的容器 Nodename)
+description: "清理 Prometheus 中累積的無效或過期 Series 數據 (例如: 舊的容器 Nodename)"
 ---
 
 # Clean Prometheus Series Skill

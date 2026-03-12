@@ -1,2 +1,6 @@
 .system
 
+.python-version
+
+cron.log
+

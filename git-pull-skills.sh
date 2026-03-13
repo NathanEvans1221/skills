@@ -8,6 +8,7 @@ GEMINI_SKILLS_DIR="/Users/liao-eli/.gemini/skills"
 CODEX_SKILLS_DIR="/Users/liao-eli/.codex/skills"
 OPENCODE_SKILLS_DIR="/Users/liao-eli/.opencode/skills"
 CLAUDE_SKILLS_DIR="/Users/liao-eli/.claude/skills"
+WINDSURF_SKILLS_DIR="/Users/liao-eli/.codeium/windsurf/skills"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_FILE="$SCRIPT_DIR/cron.log"
 TEMP_LOG=$(mktemp)
@@ -54,15 +55,17 @@ run_update() {
     update_repo "$CODEX_SKILLS_DIR" "Codex" CODEX_RESULT
     update_repo "$OPENCODE_SKILLS_DIR" "OpenCode" OPENCODE_RESULT
     update_repo "$CLAUDE_SKILLS_DIR" "Claude" CLAUDE_RESULT
+    update_repo "$WINDSURF_SKILLS_DIR" "Windsurf" WINDSURF_RESULT
 
     log "📊 更新結果摘要："
     log "  GEMINI: $([ $GEMINI_RESULT -eq 0 ] && echo '成功' || echo '失敗')"
     log "  Codex: $([ $CODEX_RESULT -eq 0 ] && echo '成功' || echo '失敗')"
     log "  OpenCode: $([ $OPENCODE_RESULT -eq 0 ] && echo '成功' || echo '失敗')"
     log "  Claude: $([ $CLAUDE_RESULT -eq 0 ] && echo '成功' || echo '失敗')"
+    log "  Windsurf: $([ $WINDSURF_RESULT -eq 0 ] && echo '成功' || echo '失敗')"
 
     # 如果有任何一個失敗，返回非零狀態碼
-    if [ $GEMINI_RESULT -ne 0 ] || [ $CODEX_RESULT -ne 0 ] || [ $OPENCODE_RESULT -ne 0 ] || [ $CLAUDE_RESULT -ne 0 ]; then
+    if [ $GEMINI_RESULT -ne 0 ] || [ $CODEX_RESULT -ne 0 ] || [ $OPENCODE_RESULT -ne 0 ] || [ $CLAUDE_RESULT -ne 0 ] || [ $WINDSURF_RESULT -ne 0 ]; then
         return 1
     else
         return 0

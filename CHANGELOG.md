@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Docs: 更新 `GEMINI.md`，新增 Artifacts 語言規範（Implementation Plan, Task, Walkthrough 統一使用繁體中文）。
 - Fixed: 修正 `clean_prometheus_series/SKILL.md` 的 YAML 語法錯誤（為 `description` 加上引號）。
+- Script: 更新 `git-pull-skills.sh` 以包含 `WINDSURF_SKILLS_DIR` 的處理。
 
 ### Added
 - Skill: 新增 `doc-refiner` 技能，自動化整理與標準化 Obsidian 文件。

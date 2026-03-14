@@ -1,0 +1,11 @@
+No,Product Type,Primary,On Primary,Secondary,Accent,Background,Foreground,Notes
+1,SaaS (General),#2563EB,#FFFFFF,#3B82F6,#EA580C,#F8FAFC,#1E293B,Trust blue + orange CTA contrast
+2,Micro SaaS,#6366F1,#FFFFFF,#818CF8,#059669,#F5F3FF,#1E1B4B,Indigo primary + emerald CTA
+3,E-commerce,#059669,#FFFFFF,#10B981,#EA580C,#ECFDF5,#064E3B,Success green + urgency orange
+4,E-commerce Luxury,#1C1917,#FFFFFF,#44403C,#A16207,#FAFAF9,#0C0A09,Premium dark + gold accent
+5,B2B Service,#0F172A,#FFFFFF,#334155,#0369A1,#F8FAFC,#020617,Professional navy + blue CTA
+6,Financial Dashboard,#0F172A,#FFFFFF,#1E293B,#22C55E,#020617,#F8FAFC,Dark bg + green status
+7,Healthcare App,#0891B2,#FFFFFF,#22D3EE,#059669,#ECFEFF,#164E63,Calm cyan + health green
+8,AI/Chatbot Platform,#7C3AED,#FFFFFF,#A78BFA,#0891B2,#FAF5FF,#1E1B4B,AI purple + cyan tech
+9,Social Media App,#E11D48,#FFFFFF,#FB7185,#2563EB,#FFF1F2,#881337,Vibrant rose + engagement blue
+10,Gaming,#7C3AED,#FFFFFF,#A78BFA,#F43F5E,#0F0F23,#E2E8F0,Neon purple + rose action

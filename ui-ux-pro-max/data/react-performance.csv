@@ -1,0 +1,7 @@
+No,Category,Issue,Keywords,Platform,Description,Do,Don't,Severity
+1,Async Waterfall,Defer Await,"async await defer branch",React/Next.js,"Move await into branches where used to avoid blocking","Await inside branches","Await at top of function",Critical
+2,Async Waterfall,Promise.all Parallel,"promise all parallel concurrent",React/Next.js,"Execute independent async independent operations concurrently","Promise.all([p1, p2])","Sequential await for independent",Critical
+3,Bundle Size,Barrel Imports,"barrel import direct path",React/Next.js,"Import directly from source files instead of barrel files","Import directly from source","Import from barrel/index",Critical
+4,Bundle Size,Dynamic Imports,"dynamic import lazy next",React/Next.js,"Use next/dynamic to lazy-load large components","dynamic(() => import(...))","Import at top level",Critical
+5,Server,React.cache Dedup,"react cache deduplicate",React/Next.js,"Use React.cache() for server-side request deduplication","Wrap fetchers with cache()","Fetch same data multiple times",Medium
+6,Server,LRU Cache,"lru cache cross request",React/Next.js,"Use LRU cache for data shared across sequential requests","Use LRU for cross-request","Refetch same data every request",High

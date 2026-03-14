@@ -1,0 +1,7 @@
+No,Category,Issue,Keywords,Platform,Description,Do,Don't,Severity
+1,Accessibility,Icon Button Labels,"icon button label",Mobile,"Icon-only buttons must expose an accessible label","Set accessibilityLabel","Icon button without name",Critical
+2,Accessibility,Form Labels,"form input accessibilityLabel",Mobile,"Inputs must have a visible label and accessibility label","Pair Text label with input","Inputs with placeholder only",Critical
+3,Touch,Target Size,"touch 44x44 target size",Mobile,"Primary touch targets must be at least 44x44pt","hitSlop or padding","Small icons tiny touch area",Critical
+4,Touch,Touch Spacing,"touch spacing gap 8px",Mobile,"Adjacent targets need enough spacing (min 8dp)","gap-2 (8px) between buttons","Cluster buttons with no gap",Medium
+5,Navigation,Back Behavior,"back navigation stacks",Mobile,"Back should be predictable and preserve state","navigation.goBack()","Reset stack unexpectedly",Critical
+6,Feedback,Loading Indicators,"activity indicator skeleton",Mobile,"Show visible feedback during network operations","ActivityIndicator or skeleton","Leave button/screen frozen",High

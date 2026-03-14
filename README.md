@@ -135,6 +135,29 @@ Claude 執行 Skill 後會觀察結果（例如指令是否噴錯），如果失
 *   **使用方式**：當準備提交變更、詢問 commit message 或使用 `/commit-gen` 指令時觸發。
 *   **輸出語言**：繁體中文
 
+### 15. [UI UX Pro Max](./ui-ux-pro-max/SKILL.md)
+*   **角色場景**：設計智慧核心與產品規劃專家。
+*   **核心功能**：產品需求分析、設計系統推理生成、以及 App UI 專業規範（圖示、互動、WCAG 對比度）。
+*   **自動化工具**：內置 Python 腳本 (`search.py`) 可自動化生成設計建議與持久化存檔。
+*   **工作流**：可透過指令 `/ui-ux-design` 啟動標準化設計流程。
+*   **使用方式**：當需要「規劃產品」、「建立設計系統」或進行「專業 UI 審核」時觸發。
+
+### 16. [Design System Pro](./uupm-design-system/SKILL.md)
+*   **角色場景**：系統化設計與 Token 架構專家。
+*   **核心功能**：三層 Token 架構（Primitive -> Semantic -> Component）與 Tailwind/CSS 變數自動化整合。
+
+### 17. [Brand Excellence](./uupm-brand/SKILL.md)
+*   **角色場景**：品牌識別與敘事專家。
+*   **核心功能**：品牌語調 (Voice) 定義、視覺識別規範與資產一致性檢查。
+
+### 18. [Graphics Design Mastery](./uupm-graphics-design/SKILL.md)
+*   **角色場景**：視覺圖形與標誌設計大師。
+*   **核心功能**：Logo 概念生成、Icon 系統一致性規範與高質感 Banner 設計邏輯。
+
+### 19. [Presentation Slides Elite](./uupm-presentation-slides/SKILL.md)
+*   **角色場景**：精品簡報與數據可視化專家。
+*   **核心功能**：高品質投影片排版、視覺動線引導與單一焦點資訊控制。
+
 ---
 
 ## 安裝目錄

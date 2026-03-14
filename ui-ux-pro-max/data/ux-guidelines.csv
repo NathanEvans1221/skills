@@ -1,0 +1,11 @@
+No,Category,Topic,Platform,Requirement,Best Practice (DO),Anti-Pattern (DON'T),Implementation,Alternatives,Severity
+1,Navigation,Header Sticky,Web,Fixed headers should not cover content,Leave top padding equal to header height,Let header obscure section content,pt-[header-height],No padding,High
+2,Navigation,Active State,All,Indicate current user location visually,Highlight active nav item clearly,No visual feedback on current location,text-primary border-b-2,All links same style,Medium
+3,Navigation,Back Button,Mobile,Maintain predictable back behavior,Preserve navigation history correctly,Break browser/system back button,history.pushState(),location.replace(),High
+4,Animation,Duration,All,Micro-interactions should be snappy,Use 150-300ms duration,Use >500ms for simple UI changes,duration-200,duration-1000,Medium
+5,Animation,Reduced Motion,All,Respect OS motion accessibility settings,Check prefers-reduced-motion media query,Ignore user motion settings,@media (prefers-reduced-motion: reduce),No motion check,High
+6,Layout,Content Width,Web,Optimized line length for readability,Limit text width to 65-75 characters,Let text span full screen width,max-w-prose,Full width text,Medium
+7,Layout,Content Jumping,Web,Prevent jarring layout shifts,Reserve space for async content/images,Let layout jump when assets load,aspect-ratio,No dimensions,High
+8,Touch,Target Size,Mobile,Clickable areas need sufficient size,Minimum 44x44pt touch area,Small buttons hard to tap,min-h-[44px],w-6 h-6,High
+9,Form,Input Labels,All,Visible and descriptive labels,Pair label with input explicitly,Placeholders as only labels,Label + Input,Placeholder only,High
+10,Feedback,Success States,All,Confirm user actions clearly,Show success message or visual cue,No feedback after submission,Toast notification,No response,Medium

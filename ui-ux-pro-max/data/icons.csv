@@ -1,0 +1,8 @@
+No,Category,Icon Name,Keywords,Library,Import Code,Best For,Style
+1,Development,terminal,"console, cli, command",Phosphor,"import { Terminal } from '@phosphor-icons/react'","Terminal console",Outline
+2,Development,git-branch,"version control, branch, merge",Phosphor,"import { GitBranch } from '@phosphor-icons/react'","Git branch",Outline
+3,Development,github-logo,"repository, code, open source",Phosphor,"import { GithubLogo } from '@phosphor-icons/react'","GitHub repository",Outline
+4,Style Config,bold-typography,"bold, editorial, mono",Phosphor (react-native),"import { ArrowRight } from 'phosphor-react-native'","Bold Typography Mobile",Outline
+5,Style Config,cyberpunk,"neon, glow, hud, dark",Phosphor (react-native),"import { Lightning } from 'phosphor-react-native'","Cyberpunk Mobile",Outline
+6,Style Config,academia,"library, brass, scholarly",Phosphor (react-native),"import { BookOpen } from 'phosphor-react-native'","Academia Mobile",Outline
+7,Guideline,icon-fallback,"icon fallback, strategy","Phosphor + Heroicons","...","Fallback rules",Outline

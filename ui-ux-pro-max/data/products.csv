@@ -1,0 +1,11 @@
+No,Product Type,Keywords,Primary Style Recommendation,Secondary Styles,Landing Page Pattern,Dashboard Style,Color Palette Focus
+1,SaaS (General),"app, b2b, cloud, saas, software",Glassmorphism + Flat Design,Minimalism,Hero + Features + CTA,Data-Dense,Trust blue + accent
+2,Micro SaaS,"indie, micro, small, solo",Flat Design + Vibrant & Block,Micro-interactions,Minimal & Direct,Executive Dashboard,Vibrant primary + white
+3,E-commerce,"buy, commerce, shop, store",Vibrant & Block-based,Aurora UI,Feature-Rich Showcase,Sales Intelligence,Brand primary + success
+4,E-commerce Luxury,"elegant, premium, luxury",Liquid Glass + Glassmorphism,Aurora UI,Feature-Rich Showcase,Sales Intelligence,Premium colors + gold
+5,Fintech/Crypto,"banking, blockchain, crypto, defi",Glassmorphism + Dark Mode,Retro-Futurism,Conversion-Optimized,Real-Time Monitoring,Dark tech + vibrant accents
+6,Healthcare App,"clinic, health, patient",Neumorphism + Accessible,Soft UI,Social Proof Focused,User Analytics,Calm blue + health green
+7,Analytics Dashboard,"admin, analytics, data, panel",Data-Dense + HeatMap,Minimalism,N/A - Focused,Drill-Down Analytics,Cool->Hot gradients
+8,Creative Agency,"agency, creative, design, marketing",Brutalism + Motion-Driven,Storytelling,Portfolio Focused,N/A,Bold primaries + artistic
+9,Educational App,"course, education, learning",Claymorphism + Micro-interactions,Flat Design,Storytelling-Driven,User Analytics,Playful colors + hierarchy
+10,Portfolio/Personal,"creative, personal, showcase",Motion-Driven + Minimalism,Brutalism,Storytelling-Driven,N/A,Brand primary + artistic

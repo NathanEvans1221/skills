@@ -1,0 +1,7 @@
+No,Pattern Name,Keywords,Section Order,Primary CTA Placement,Color Strategy,Conversion Optimization
+1,Hero + Features + CTA,"hero, features, cta","1. Hero, 2. Value prop, 3. Features (3-5), 4. CTA, 5. Footer",Hero + Bottom,Hero: Brand primary. CTA: Contrasting accent,Sticky navbar CTA. 7:1+ contrast.
+2,Social Proof Focused,"hero, testimonials, social-proof, trust","1. Hero, 2. Problem, 3. Solution, 4. Testimonials, 5. CTA",Hero + Post-testimonials,Hero: Brand. Testimonials: Light bg #F5F5F5,Social proof before CTA. 3-5 reviews.
+3,Product Demo,"demo, interactive, showcase","1. Hero, 2. Demo video/mockup, 3. Features, 4. CTA",Video center + Bottom,Surround: Brand. Features: Icon accent,Interactive demo increases engagement.
+4,Minimal Single Column,"minimal, simple, clean, direct","1. Hero, 2. Description, 3. Benefits (3 max), 4. CTA, 5. Footer",Center large button,B&W + Single Brand accent,Single CTA focus. Lots of whitespace.
+5,Pricing Page,"pricing, plans, tiers, faq","1. Hero, 2. Pricing cards, 3. Feature table, 4. FAQ, 5. Final CTA",Each card button. Nav sticky,Starter: Blue. Pro: Gold. Highlight Pro,Pre-select/highlight Pro plan.
+6,Lead Magnet,"lead, form, signup, capture","1. Hero, 2. Lead magnet preview, 3. Form, 4. CTA Submit",Form CTA button,Lead magnet: Pro design. CTA: Brand,Fields <= 3 for best conversion.

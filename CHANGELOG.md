@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Script: 更新 `git-pull-skills.sh` 以包含 `WINDSURF_SKILLS_DIR` 與 `CURSOR_SKILLS_DIR` 的處理。
 
 ### Added
+- Script: 新增 `git-pull-skills.ps1`，為 `git-pull-skills.sh` 的 Windows PowerShell 版本，支援路徑自動轉換與日誌管理。
 - Skill: 新增 `ui-ux-pro-max` 家族系列技能，包含：
     - `ui-ux-pro-max`: 設計智慧核心與 App UI 規範。
     - `uupm-design-system`: 三層 Token 架構與組件規範。
